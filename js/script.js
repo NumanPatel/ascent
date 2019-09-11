@@ -9,24 +9,24 @@
             $("#alert-box-news").animateAlert('slideOutUp', 500, true);
         });
          $('.owl-carousel').owlCarousel({
-    loop:true,
-    margin:10,
-    items : 4,
-    navigation: true,
-    nav:true,
-    navigationText : ["<i class='fa fa-long-arrow-left'></i>","<i class='fa fa-long-arrow-right'></i>"],
-    responsive:{
-        0:{
-            items:1
-        },
-        600:{
-            items:3
-        },
-        1000:{
-            items:5
-        }
-    }
-});
+                loop:true,
+                margin:10,
+                items : 4,
+                navigation: true,
+                nav:true,
+                navigationText : ["<i class='fa fa-long-arrow-left'></i>","<i class='fa fa-long-arrow-right'></i>"],
+                responsive:{
+                    0:{
+                        items:1
+                    },
+                    600:{
+                        items:3
+                    },
+                    1000:{
+                        items:5
+                    }
+                }
+            });
     
     
           $('#b').hide();

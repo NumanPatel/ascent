@@ -117,7 +117,7 @@
   }
   .border12.case{
     margin-top: -47px;
-    width: 29%;
+    width: 28%;
   }
   .border12.why{
     margin-top: -47px;
@@ -290,4 +290,7 @@
         background-image: url(../img/2.png);
     }.carousel .carousel-indicators.home-ind li[data-slide-to='2']{
         background-image: url(../img/3.png);
+    }
+    .rect6{
+        background-image: url('../img/Rectangle 6.png');background-size: cover;background-repeat: no-repeat;
     }
