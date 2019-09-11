@@ -56,7 +56,7 @@
     color: #fff;
     height: 45px!important;
     width: 45px!important;
-    opacity: 0.7;
+    opacity: 0.4;
     border: 2px solid #fff;
 }
 
@@ -276,3 +276,18 @@
     border: 2px solid #0a4168;
     color: #0a4168;
     line-height: 40px;margin-top: 5px; margin-right: 15px;}
+   
+    .carousel .carousel-indicators.home-ind li{
+         background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    content: '1';
+    }
+    
+    .carousel .carousel-indicators.home-ind li[data-slide-to='0']{
+        background-image: url(../img/1.png);
+    }.carousel .carousel-indicators.home-ind li[data-slide-to='1']{
+        background-image: url(../img/2.png);
+    }.carousel .carousel-indicators.home-ind li[data-slide-to='2']{
+        background-image: url(../img/3.png);
+    }
