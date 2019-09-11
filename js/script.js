@@ -1,11 +1,4 @@
-    //  $('.section2').hide();
-    // $("#recon").click(function () {
-    //            // $('.section1').hide();
-    //            $(".section1").hide("slide", {direction: "right"}, 1000);
-    //            // $(".section1").animate({left: '250px'});
-    //            // $('.section2').show();
 
-    //    });
     new WOW().init();
 
     $(document).ready(function() {
@@ -15,4 +8,46 @@
         $("#close-alert-box-news").on("click", function() {
             $("#alert-box-news").animateAlert('slideOutUp', 500, true);
         });
+         $('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    items : 4,
+    navigation: true,
+    nav:true,
+    navigationText : ["<i class='fa fa-long-arrow-left'></i>","<i class='fa fa-long-arrow-right'></i>"],
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:3
+        },
+        1000:{
+            items:5
+        }
+    }
+});
+    
+    
+          $('#b').hide();
+  $('#c').hide();
+  $('#d').hide();
+  $('.hover2').hover(
+  function(){
+
+     $('#a').toggle(10);
+       $('#b').toggle(10);
+   });
+   $('.hover3').hover(
+  function(){
+
+     $('#a').toggle(10);
+       $('#c').toggle(10);
+   });
+    $('.hover4').hover(
+  function(){
+
+     $('#a').toggle(10);
+       $('#d').toggle(10);
+   });
     });
