@@ -1,0 +1,44 @@
+Any operating system is good - as long as it allows deployment of the following required components:
+
+PHP;
+MySQL;
+Web server with support for PHP (Nginx is recommended).
+PHP, MySQL and Apache/Nginx web server requirements are listed further below.\
+
+
+PHP configuration
+PHP version
+
+X-Cart 4.7.0 and later: Any PHP version below 7.0.x should not be used. #PHP7 is recommended for X-Cart versions 4.7.6 and later for better performance
+X-Cart 4.5.3-4.6.6: PHP version 5.2.0 or later is required.
+Up to X-Cart 4.5.3: PHP versions 4.4.0 - 5.x. (PHP5 support is recommended, but not required).
+
+PHP extensions
+
+required:
+
+PCRE
+MySQLI or MySQL (MySQLI is supported starting with X-Cart version 4.6.4)
+recommended:
+
+FTP - to be able to upload files to GoogleBase
+Zlib - for data compression on the fly
+
+MySQL configuration
+MySQL version
+
+For X-Cart versions 4.7.х, MySQL 5.7.x/8.x is recommended for better performance, MySQL 8.x is supported starting with X-Cart version 4.7.10
+Up to X-Cart 4.7.0 Supported versions: 4.1.2 - 5.7.x
+
+MariaDB is also supported by X-Cart versions of the 4.7 branch.
+MySQL server settings
+
+MAX_CONNECTIONS >= 200 (required; try using a lower setting when having MySQL issues on a server with less than 4GB of RAM)
+
+Web-server configuration
+Nginx/Apache  is the recommended web server. The settings described below refer to Apache only.
+
+Distributed configuration file
+
+The name of the file must be ".htaccess" (AccessFileName .htaccess).
+You must have sufficient permissions to change the settings of the web directory via the .htaccess file (AllowOverride = ALL).
