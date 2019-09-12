@@ -12,6 +12,7 @@
             if($("#bcm").hasClass("active") === true){
                 $("#bcm").removeClass("active")
             }
+            $(window).scrollTop(0);
         });
 
         $("#bcm").on("click", function() {
@@ -24,6 +25,7 @@
             if($("#recon").hasClass("active") === true){
                 $("#recon").removeClass("active")
             }
+            $(window).scrollTop(0);
         });
 
         $("#escrow").on("click", function() {
@@ -36,6 +38,7 @@
             if($("#bcm").hasClass("active") === true){
                 $("#bcm").removeClass("active")
             }
+            $(window).scrollTop(0);
         });
         $("#recon").on("click", function() {
             $(".section1").animateAlert('slideOutUp', 6000);
