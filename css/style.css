@@ -81,8 +81,8 @@
     line-height: 1;
     margin-bottom: 20px
 }
-.left-opt li.active {
-    font-size: 1.5em
+.left-opt li.active img {
+    transform: scale(2,3);
 }
 .sticky1 {
     max-width: 200px;
@@ -173,7 +173,7 @@ body {
     border: 20px solid #0a4168
 }
 li.nav-item.active {
-    border-bottom: 5px solid #b132b1;
+    border-bottom: 5px solid #3f72af;
 }
 .pr-6 {
     padding-right: 6rem
@@ -252,11 +252,11 @@ input[name=productradio]:checked+label {
     font-size: 22px;
 }
 .b10 {
-    border: 2px solid #0a4168;
+    border: 2px solid #3f72af;
     width: 10%;
 }
 .br1 {
-    border-right: 1px solid #0a4168;
+    border-right: 1px solid #3f72af;
 }
 .homepage .first-text {
     position: absolute;
@@ -268,10 +268,13 @@ input[name=productradio]:checked+label {
     font-weight: 500;
     padding: 5px;
 }
+.bg-secondary2{
+    background: #3f72af;
+}
 .homepage .first-text.fin{
     background: transparent;
     font-size: 16px;
-    color: #b132b1;
+    color: #202060;
     font-weight: 600;
 }
 .homepage .top-head {
@@ -288,7 +291,7 @@ input[name=productradio]:checked+label {
     font-size: 0.5em;
     position: absolute;
     right: -137px;
-    color: #b132b1;
+    color: #3f72af;
 }
 .text-secondary1 {
     color: #202060;
@@ -325,7 +328,7 @@ input[name=productradio]:checked+label {
     width: 100%;
 }
 .height303 {
-    min-height: 310px;
+    min-height: 340px;
 }
 .fs-2 {
     font-size: 2em;
@@ -401,14 +404,15 @@ input[name=productradio]:checked+label {
     z-index: 5000;
 }
 .dropdown-menu.products {
-    left: 35%;
+    left: 32%;
     max-width: 200px;
     line-height: 11px;
+    top: 54px;
 }
 .text-primary1.fw400.fs14px{
     font-weight: 500;   
 }
-.navbar .dropdown-menu.products a{
+.navbar ` a{
     padding: 4px 10px;
 }
 .navbar .dropdown-menu.products img{
@@ -484,7 +488,7 @@ input[name=productradio]:checked+label {
 .second-header{
     font-size: 3.2em;
     font-weight: bold;
-    color: #b132b1;
+    color: #fff;
     text-align: center;
 }
 
@@ -672,8 +676,8 @@ sup.sup {
 .case_study .owl-prev,
 .case_study .owl-next {
     background: #fff;
-    border: 2px solid #0a4168;
-    color: #0a4168;
+    border: 2px solid #3f72af;
+    color: #3f72af;
     line-height: 40px;
     margin-top: 5px;
     margin-right: 15px;
@@ -721,15 +725,18 @@ img.img-fluid.pl-5.pr-5.mb-3 {
 
 .obg {
        height: 50px;
-    background: #b132b1;
+    background: #3f72af;
     width: 50px;
     position: absolute;
     right: 20%;
     z-index: -1;
     top: -23px;
 }
+.hue{
+    filter: hue-rotate(80deg);
+}
 .text-primary2{
-    color: #b132b1;
+    color: #3f72af;
 }
 .pr-7{
     padding-right: 7%;

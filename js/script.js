@@ -70,20 +70,31 @@
           $('#b').hide();
   $('#c').hide();
   $('#d').hide();
+  $('.hover1').hover(
+  function(){
+
+    $(this).toggleClass('hue');
+
+   });
+
   $('.hover2').hover(
   function(){
 
+    $(this).toggleClass('hue');
      $('#a').toggle(10);
        $('#b').toggle(10);
+
    });
    $('.hover3').hover(
   function(){
-
+    $(this).toggleClass('hue');
      $('#a').toggle(10);
        $('#c').toggle(10);
    });
     $('.hover4').hover(
   function(){
+
+    $(this).toggleClass('hue');
 
      $('#a').toggle(10);
        $('#d').toggle(10);
@@ -102,4 +113,38 @@
 });
     });
 
+
+const mHTML = document.getElementById('message'),
+messages = [
+  'Financial Automation',
+];
+let currentMessage = 0;
+function typeMessage() {
+  if (!messages[currentMessage]) {
+    currentMessage = 0;
+  }
+  const currentStr = messages[currentMessage];
+  currentStr.split();
+  let part = '';
+  let currentLetter = 0;
+  let int1 = setInterval(()=>{
+    if (!currentStr[currentLetter]) {
+      currentMessage++;
+      setTimeout(()=>{
+        deleteMessage(part);
+      }, 900);
+      clearInterval(int1);
+    } else {
+      part += currentStr[currentLetter++];
+      mHTML.innerHTML = part;
+    }
+  }, 200);
+}
+typeMessage();
+
+$('ul.nav li.dropdown').hover(function() {
+  $(this).find('.dropdown-menu').stop(true, true).delay(200).fadeIn(500);
+}, function() {
+  $(this).find('.dropdown-menu').stop(true, true).delay(200).fadeOut(500);
+});
 
