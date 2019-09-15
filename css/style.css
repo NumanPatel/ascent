@@ -415,9 +415,9 @@ input[name=productradio]:checked+label {
     height: 27px;
 }
 .border12 {
-    border: 0.6px solid #002037;
+    border: 1px solid #002037;
     margin-top: -110px;
-    width: 80%;
+    width: 74%;
     margin-bottom: 53px;
 }
 .border12.case {
@@ -426,19 +426,23 @@ input[name=productradio]:checked+label {
 }
 .border12.why {
     margin-top: -47px;
-    width: 68%;border: 0.2px solid;
+    width: 64%;border: 0.7px solid;
 }
 .fs-25 {
     font-size: 2.25em;
 }
 .border12.mile {
     margin-top: -47px;
-    width: 75%;
+    width: 71%;
     margin-left: 22.3%;
-}.border12.contact {
+}
+.border12.mile.company{
+    margin-left: 24.3%;
+}
+.border12.contact {
         margin-top: -63px;
-    width: 68%;
-    margin-left: 32%;
+    width: 91%;
+    margin-left: 8%;
 }
 .shade1 {
     height: 87px;
