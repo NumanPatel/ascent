@@ -1,0 +1,21 @@
+    .pt-7{padding-top:7rem!important}
+
+    .h-38{
+      font-size: 38px !important;
+    }
+
+    h5{
+      color:#0a4168 !important;
+    }
+
+    h6{
+      color:#0a4168 !important;
+    }
+    .fs17px{
+            font-size: 17px !important;
+    }
+
+    .rightblog > .owl-wrapper-outer > .owl-wrapper{
+      width: fit-content !important;
+      float: right;
+    }

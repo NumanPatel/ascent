@@ -3,7 +3,8 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
+   <meta http-equiv="Content-Security-Policy" content="default-src *; style-src 'self' http://* 'unsafe-inline'; script-src 'self' http://* 'unsafe-inline' 'unsafe-eval'" />
+
     <title>Ascent</title>
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -15,66 +16,85 @@
   <body>
     <div></div>
     <div class="container-fluid bg-white sticky-top">
-      <nav class="mb-1 navbar navbar-expand-lg navbar-default z-depth-0"><a class="navbar-brand" href="#"><img class="logo" src="img/logo.png" alt="logo"></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-4" aria-controls="navbarSupportedContent-4" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-        <div class="collapse navbar-collapse">
-          <ul class="navbar-nav ml-auto">
-                <li class="nav-item"><a class="nav-link black-text text-uppercase mr-2 ml-2 fw500 fs14px" href="/">Home</a></li>
-                <li class="nav-item"><a class="nav-link black-text text-uppercase mr-2 ml-2 fw500 fs14px" href="/product">Product</a></li>
-                <li class="nav-item"><a class="nav-link black-text text-uppercase mr-2 ml-2 fw500 fs14px" href="/about">About</a></li>
-                <li class="nav-item"><a class="nav-link black-text text-uppercase mr-2 ml-2 fw500 fs14px" href="/case_study">Case Study</a></li>
-                <li class="nav-item"><a class="nav-link black-text text-uppercase mr-2 ml-2 fw500 fs14px" href="/blog">Blog</a></li>
-                <li class="nav-item"><a class="nav-link black-text text-uppercase mr-2 ml-2 fw500 fs14px" href="#contactUs">Contact Us</a></li>
-          </ul>
-          <form class="form-inline pb-2">
-            <div>
-              <input class="search-box" type="text" placeholder="Search" aria-label="Search">
-            </div>
-          </form>
-        </div>
+      <nav class="mb-1 navbar navbar-expand-lg navbar-default z-depth-0">
+          <a class="navbar-brand" href="#"><img class="logo" src="img/logo.png" alt="logo"></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-4" aria-controls="navbarSupportedContent-4" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+          <div class="collapse navbar-collapse">
+              <ul class="navbar-nav ml-auto">
+                  <li class="nav-item"><a class="nav-link black-text text-uppercase mr-2 ml-2 fw500 fs14px" href="/">Home</a></li>
+                  <li class="nav-item"><a class="nav-link black-text text-uppercase mr-2 ml-2 fw500 fs14px" href="/product">Product</a></li>
+                  <li class="nav-item active"><a class="nav-link black-text text-uppercase mr-2 ml-2 fw500 fs14px" href="/#">About</a></li>
+                  <li class="nav-item "><a class="nav-link black-text text-uppercase mr-2 ml-2 fw500 fs14px" href="/case_study">Case Studies</a></li>
+                  <li class="nav-item"><a class="nav-link black-text text-uppercase mr-2 ml-2 fw500 fs14px" href="/blog">Blog</a></li>
+                  <li class="nav-item"><a class="nav-link black-text text-uppercase mr-2 ml-2 fw500 fs14px" href="#contactUs">Contact Us</a></li>
+              </ul>
+              <form class="form-inline pb-2">
+                  <div>
+                      <input class="search-box" type="text" placeholder="Search" aria-label="Search">
+                  </div>
+              </form>
+          </div>
       </nav>
-    </div>
+  </div>
     
 
     <div class="container homepage">
+      <div class="row mt-5">
+        <div class=" text-center pt-3">
+          <img class="img-fluid" src="img/left-side.png" alt="">
+        </div>
 
-                    <div class="col-sm-9" style="margin: auto;">
-                      <p class="b20"></p>
-                      <h4 class="fw600 text-primary1 pt-3 h-38">Ascent Technology Receives IPR Certificate for PROMART-Escrow Software from Ministry of Economy, UAE.</h5>
-                      <div class="col-sm text-center" style="padding: 0px !important;"><img class="img-fluid" src="img/ipr_award.jpg" alt=""  style="width: 100%"></div>
-                      <p class="mt-4 text-primary1 fw400 fs17px" >The 22 storey building has been funded by real estate investment firm Aprirose, and is the company’s first large scale residential scheme. Developed by Regal Property Group, and built by Global.CO, The Bank stands at nearly 70 metres high.
-                      </p>
-                    </div>
-        <div  id="contactUs"></div>
-            <div class="row mt-5 pr-5">
-              <p class="text-primary1 fw600 fs-40">Request Callback</p>
-              <div class="mt-2 container-fluid">
-                <div class="row m-0">
-                  <div class="col-sm-6 pl-0">
-                    <div class="mapouter img-fluid">
-                      <div class="gmap_canvas">
-                        <iframe id="gmap_canvas" width="600" height="280px" src="https://maps.google.com/maps?q=university%20of%20san%20francisco&amp;t=&amp;z=13&amp;ie=UTF8&amp;iwloc=&amp;output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.embedgooglemap.net/blog/best-wordpress-themes/"></a>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-sm-6">
-                    <input class="contact-input fw600" type="text" placeholder="Company Name">
-                    <input class="contact-input fw600" type="text" placeholder="Phone Number">
-                    <input class="contact-input fw600" type="text" placeholder="Email Id">
-                    <textarea class="contact-input fw600" placeholder="Query"></textarea>
-                    <button class="submit-btn"><i class="fa fa-long-arrow-right fw500"></i></button>
-                  </div>
+        <div class="col-sm-4">
+          <h5 class="fw600 text-primary1 pt-3 h-38">
+            <u>Call Us:</u>
+          </h5>
+          <h6>+971 43 695306(Dubai Head Office)</h6>
+          <h6>+91 40-48552057 (India Office)</h6>
+          <h6>info@ascentbusiness.com</h6>
+        </div>
+        
+        <div class="col-sm-4 pl-0">
+            <div class="mapouter img-fluid">
+              <div class="gmap_canvas">
+                <iframe id="gmap_canvas" width="600" height="280px" src="https://maps.google.com/maps?q=university%20of%20san%20francisco&amp;t=&amp;z=13&amp;ie=UTF8&amp;iwloc=&amp;output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.embedgooglemap.net/blog/best-wordpress-themes/"></a>
+              </div>
+            </div>
+          </div>
+      </div>
+
+
+	 <div  id="contactUs"></div>
+      <div class="row mt-5 pr-5">
+        <p class="text-primary1 fw600 fs-40">Request Callback</p>
+        <div class="mt-2 container-fluid">
+          <div class="row m-0">
+            <div class="col-sm-6 pl-0">
+              <div class="mapouter img-fluid">
+                <div class="gmap_canvas">
+                  <iframe id="gmap_canvas" width="600" height="280px" src="https://maps.google.com/maps?q=university%20of%20san%20francisco&amp;t=&amp;z=13&amp;ie=UTF8&amp;iwloc=&amp;output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.embedgooglemap.net/blog/best-wordpress-themes/"></a>
                 </div>
               </div>
             </div>
-
-
+                  
+            <div class="col-sm-6">
+	     <form action="http://ascentapp.rhand.xyz:3000/contactForm" method="post">
+              <input class="contact-input fw600" name="company" type="text" placeholder="Company Name">
+              <input class="contact-input fw600" type="text" name="number" placeholder="Phone Number">
+              <input class="contact-input fw600" type="text" name="email"placeholder="Email Id">
+              <textarea class="contact-input fw600" type="text" name="query" placeholder="Query"></textarea>
+              <button type="submit" class="submit-btn"><i class="fa fa-long-arrow-right fw500"></i></button> 
+             
+             </form> 
+	   </div>
+          </div>
+        </div>
+      </div>
     </div>
 
 
 
 
-            <footer class="page-footer font-small bg-primary1 pt-4 mt-4" id="footer">
+    <footer class="page-footer font-small bg-primary1 pt-4 mt-4" id="footer">
       <div class="container text-center text-md-left">
         <div class="row">
           <div class="col-md-4 mt-md-0 mt-3">
