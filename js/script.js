@@ -2,45 +2,45 @@
     new WOW().init();
 
     $(document).ready(function() {
-        $("#recon").on("click", function() {
-            if($("#recon").hasClass("active") === false){
-                $("#recon").addClass("active")
+        $(".recon2").on("click", function() {
+            if($(".recon2").hasClass("active") === false){
+                $(".recon2").addClass("active")
             }
-            if($("#escrow").hasClass("active") === true){
-                $("#escrow").removeClass("active")
+            if($(".escrow2").hasClass("active") === true){
+                $(".escrow2").removeClass("active")
             }
-            if($("#bcm").hasClass("active") === true){
-                $("#bcm").removeClass("active")
-            }
-            $(window).scrollTop(0);
-        });
-
-        $("#bcm").on("click", function() {
-            if($("#bcm").hasClass("active") === false){
-                $("#bcm").addClass("active")
-            }
-            if($("#escrow").hasClass("active") === true){
-                $("#escrow").removeClass("active")
-            }
-            if($("#recon").hasClass("active") === true){
-                $("#recon").removeClass("active")
+            if($(".bcm2").hasClass("active") === true){
+                $(".bcm2").removeClass("active")
             }
             $(window).scrollTop(0);
         });
 
-        $("#escrow").on("click", function() {
-            if($("#escrow").hasClass("active") === false){
-                $("#escrow").addClass("active")
+        $(".bcm2").on("click", function() {
+            if($(".bcm2").hasClass("active") === false){
+                $(".bcm2").addClass("active")
             }
-            if($("#recon").hasClass("active") === true){
-                $("#recon").removeClass("active")
+            if($(".escrow2").hasClass("active") === true){
+                $(".escrow2").removeClass("active")
             }
-            if($("#bcm").hasClass("active") === true){
-                $("#bcm").removeClass("active")
+            if($(".recon2").hasClass("active") === true){
+                $(".recon2").removeClass("active")
             }
             $(window).scrollTop(0);
         });
-        $("#recon").on("click", function() {
+
+        $(".escrow2").on("click", function() {
+            if($(".escrow2").hasClass("active") === false){
+                $(".escrow2").addClass("active")
+            }
+            if($(".recon2").hasClass("active") === true){
+                $(".recon2").removeClass("active")
+            }
+            if($(".bcm2").hasClass("active") === true){
+                $(".bcm2").removeClass("active")
+            }
+            $(window).scrollTop(0);
+        });
+        $(".recon2").on("click", function() {
             $(".section1").animateAlert('slideOutUp', 6000);
         });
         $("#close-alert-box-news").on("click", function() {
@@ -148,3 +148,16 @@ $('ul.nav li.dropdown').hover(function() {
   $(this).find('.dropdown-menu').stop(true, true).delay(200).fadeOut(500);
 });
 
+// ===== Scroll to Top ==== 
+$(window).scroll(function() {
+    if ($(this).scrollTop() >= 50) {        // If page is scrolled more than 50px
+        $('#return-to-top').fadeIn(200);    // Fade in the arrow
+    } else {
+        $('#return-to-top').fadeOut(200);   // Else fade out the arrow
+    }
+});
+$('#return-to-top').click(function() {      // When arrow is clicked
+    $('body,html').animate({
+        scrollTop : 0                       // Scroll to top of body
+    }, 500);
+});
