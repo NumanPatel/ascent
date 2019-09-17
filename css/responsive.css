@@ -4,9 +4,26 @@
 }
 
 @media only screen and (max-width: 550px) {
+	body , html{
+		width: 100%;
+		overflow-x: hidden;
+		padding-top: 10%;
+	}
+	.container-fluid.bg-white.sticky-top.z-depth-1{
+		position: fixed;
+	}
+	.carousel-indicators.home-ind{
+		width: 100%;
+    margin: 0px;
+    right: 0;
+	}
   .mlr-0 {
     margin-left: 0px!important; 
     margin-right: 0px!important;
+  }
+  .mlr-row {
+    margin-left: -15px!important; 
+    margin-right: -15px!important;
   }
   .mlr-1{
   	margin-left: 10px!important; 
