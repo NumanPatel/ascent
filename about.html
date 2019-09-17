@@ -10,41 +10,59 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/mdb.min.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
+    <link href="css/udayStyles.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.css" integrity="sha256-Tcd+6Q3CIltXsx0o/gYhPNbEkb3HJJpucOvQA7csVwI=" crossorigin="anonymous" />
     <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700i&amp;display=swap" rel="stylesheet">
   </head>
   <body>
-    <div></div>
-    <div class="container-fluid bg-white sticky-top">
+    <div class="container-fluid bg-white sticky-top z-depth-1">
       <nav class="mb-1 navbar navbar-expand-lg navbar-default z-depth-0">
-          <a class="navbar-brand" href="#"><img class="logo" src="img/logo.png" alt="logo"></a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-4" aria-controls="navbarSupportedContent-4" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-          <div class="collapse navbar-collapse">
-              <ul class="navbar-nav ml-auto">
-                  <li class="nav-item"><a class="nav-link black-text text-uppercase mr-2 ml-2 fw500 fs14px" href="/">Home</a></li>
-                  <li class="nav-item"><a class="nav-link black-text text-uppercase mr-2 ml-2 fw500 fs14px" href="/product">Product</a></li>
-                  <li class="nav-item active"><a class="nav-link black-text text-uppercase mr-2 ml-2 fw500 fs14px" href="/#">About</a></li>
-                  <li class="nav-item "><a class="nav-link black-text text-uppercase mr-2 ml-2 fw500 fs14px" href="/case_study">Case Studies</a></li>
-                  <li class="nav-item"><a class="nav-link black-text text-uppercase mr-2 ml-2 fw500 fs14px" href="/blog">Blog</a></li>
-                  <li class="nav-item"><a class="nav-link black-text text-uppercase mr-2 ml-2 fw500 fs14px" href="#contactUs">Contact Us</a></li>
-              </ul>
-              <form class="form-inline pb-2">
-                  <div>
-                      <input class="search-box" type="text" placeholder="Search" aria-label="Search">
-                  </div>
-              </form>
-          </div>
+      
+        <a class="navbar-brand" href="index.html"><img class="logo" src="img/logo.png" alt="logo"></a>
+      
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav"
+          aria-controls="basicExampleNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"><i class="fa fa-bars"></i></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="basicExampleNav">
+      
+          <ul class="navbar-nav ml-auto">
+                          <li class="nav-item"><a class="nav-link text-uppercase mr-2 ml-2 fw500 fs14px" href="/">Home</a></li>
+                          <li class="nav-item "><a class="nav-link dropdown-toggle  text-uppercase mr-2 ml-2 fw500 fs14px"  data-toggle="dropdown"  aria-haspopup="true" aria-expanded="false">Product</a>
+      
+      
+                              <div class="dropdown-menu products">
+                                <a class="dropdown-item" href="/product"><img src="img/bcm.png" class="img-fluid"></a>
+                                <a class="dropdown-item" href="/product"><img src="img/recon.png" class="img-fluid"></a>
+                                <a class="dropdown-item" href="/product"><img src="img/promart.png" class="img-fluid"></a>
+                              </div>
+      
+                          </li>
+                          <li class="nav-item active"><a class="nav-link text-uppercase mr-2 ml-2 fw500 fs14px" href="#">About</a></li>
+                          <li class="nav-item "><a class="nav-link text-uppercase mr-2 ml-2 fw500 fs14px" href="/case_study">Case Studies</a></li>
+                          <li class="nav-item"><a class="nav-link text-uppercase mr-2 ml-2 fw500 fs14px" href="/blog">Blog</a></li>
+                          <li class="nav-item"><a class="nav-link text-uppercase mr-2 ml-2 fw500 fs14px" href="#contactUs">Contact Us</a></li>
+                      </ul>
+      
+          <form class="form-inline pb-2">
+                          <div>
+                              <input class="search-box" type="text" placeholder="Search " aria-label="Search">
+                          </div>
+                      </form>
+        </div>
+      
       </nav>
   </div>
     
 
     <div class="container homepage">
       <div class="row mt-5">
-        <div class=" text-center pt-3">
+        <div class="text-center pt-3 sidebar">
           <img class="img-fluid" src="img/left-side.png" alt="">
         </div>
 
-        <div class="col-sm-7">
+        <div class="col-sm-12 col-lg-8">
           <h5 class="fw600 text-primary1 pt-3 h-38">
             <u>Ascent at a Glance</u>
           </h5>
@@ -76,13 +94,13 @@
           </p>
         </div>
         
-        <div class="col-sm text-center pt-3">
+        <div class="col-sm text-center pt-3 aboutpic">
           <img class="img-fluid" src="img/aboutpic.jpg" alt="" style="height: 400px;width: 250px;">
         </div>
       </div>
 
       <div class="row mt-5">
-          <div class="col-sm-10">
+          <div class="col-sm-12 col-lg-10">
             <div style="text-align: right;">
               <h5 class="fw600 text-primary1 pt-3 h-38" >
                   <u>Our people</u>
@@ -95,28 +113,28 @@
               <h5 class="fw600 text-primary1 pt-3" style="width: 100%; text-align: right; margin-right: 15px;">
                   BOARD OF ADVISORS
               </h5>
-              <div class="col-sm-3 pl-0">
+              <div class="col-sm-3 pl-0 teamMember">
                 <img src="img/ceo.jpg" alt="Mike" style="width: 90%; border-radius: 50%;">
                 <div style="width: 100%; text-align: center;">
                   <h5>Kundan Shekhawat</h5>
                   <h6>Founder – CEO</h6>
                 </div>
               </div>
-              <div class="col-sm-3 pl-0">
+              <div class="col-sm-3 pl-0 teamMember">
                 <img src="img/chairman.png" alt="Mike" style="width: 90%; border-radius: 50%;">
                 <div style="width: 100%; text-align: center;">
                   <h5>Prof. Viney Sawhey</h5>
                   <h6>Chairman of the Board</h6>
                 </div>
               </div>
-              <div class="col-sm-3 pl-0">
+              <div class="col-sm-3 pl-0 teamMember">
                 <img src="img/director4.png" alt="Mike" style="width: 90%; border-radius: 50%;">
                 <div style="width: 100%; text-align: center;">
                   <h5>Nandini</h5>
                   <h6>Director</h6>
                 </div>
               </div>
-              <div class="col-sm-3 pl-0">
+              <div class="col-sm-3 pl-0 teamMember">
                 <img src="img/advisor.jpg" alt="Mike" style="width: 90%; border-radius: 50%;">
                 <div style="width: 100%; text-align: center;">
                   <h5>Niraj Vedwa</h5>
@@ -124,18 +142,18 @@
                 </div>
               </div>
             </div>
-            <div class="row"  style="width: 50%; float: right;">
+            <div class="row"  >
                 <h5 class="fw600 text-primary1 pt-3" style="width: 100%; text-align: right; margin-right: 15px;">
                     MANAGEMENT TEAM
                 </h5>
-              <div class="col-sm-6 pl-0">
+              <div class="col-sm-3 pl-0 teamMember manager manager1">
                 <img src="img/vp.png" alt="Mike" style="width: 90%; border-radius: 50%;">
                 <div style="width: 100%; text-align: center;">
                   <h5>Hemant Verma</h5>
                   <h6>Vice President US</h6>
                 </div>
               </div>
-              <div class="col-sm-6 pl-0">
+              <div class="col-sm-3 pl-0 teamMember manager">
                   <img src="img/ops.png" alt="Mike" style="width: 90%; border-radius: 50%;">
                   <div style="width: 100%; text-align: center;">
                     <h5>Subhash Gurjar</h5>
@@ -145,16 +163,16 @@
             </div>
           </div>
           
-          <div class=" text-center pt-3">
+          <div class=" text-center pt-3 sidebar">
               <img class="img-fluid" src="img/left-side.png" alt="">
           </div>
       </div>
 
       <div class="row mt-5">
-          <div class=" text-center pt-3">
+          <div class=" text-center pt-3 sidebar">
               <img class="img-fluid" src="img/left-side.png" alt="">
           </div>
-          <div class="col-sm-10"  style="max-width: 60%;">
+          <div class="col-sm-12 col-lg-8 mission">
             <div style="text-align: left;">
               <h5 class="fw600 text-primary1 pt-3 h-38" >
                   <u>Mission, vision & values</u>
@@ -164,14 +182,14 @@
               <h5 class="fw600 text-primary1 pt-3" style="width: 100%; text-align: left; margin-left: 15px;">
                   MISSION
               </h5>
-              <p style="margin-left: 15px;">To bring cutting edge technology to Fintech industry by developing world class solutions with highest level of customer satisfaction</p>
+              <p style="margin-left: 15px;color:#0a4168 !important;" class="fs17px">To bring cutting edge technology to Fintech industry by developing world class solutions with highest level of customer satisfaction</p>
             </div>
 
             <div class="row">
                 <h5 class="fw600 text-primary1 pt-3" style="width: 100%; text-align: left; margin-left: 15px;">
                     VISION
                 </h5>
-                <p style="margin-left: 15px;">To be one of the best Solution providers in the BFSI space, Regulatory and Compliance space and Operational efficiency.</p>
+                <p style="margin-left: 15px;color:#0a4168 !important;"  class="fs17px">To be one of the best Solution providers in the BFSI space, Regulatory and Compliance space and Operational efficiency.</p>
             </div>
 
             <div class="row">
@@ -180,22 +198,22 @@
                 </h5>
                 <p style="margin-left: 15px;">
                   <ul>
-                    <li style="color:#0a4168 !important;">
+                    <li style="color:#0a4168 !important;"  class="fs17px">
                         <b><b>Accountable:</b></b> We are accountable for our services and your satisfaction quotient.
                     </li>
-                    <li  style="color:#0a4168 !important;">
+                    <li  style="color:#0a4168 !important;" class="fs17px">
                         <b><b>Security:</b></b> We thrive to provide security for all the data we work with.
                     </li>
-                    <li  style="color:#0a4168 !important;">
+                    <li  style="color:#0a4168 !important;" class="fs17px">
                         <b><b>Commitment:</b></b> We make commitments with care and diligently live up to them.
                     </li>
-                    <li  style="color:#0a4168 !important;">
+                    <li  style="color:#0a4168 !important;" class="fs17px">
                         <b><b>Efficiency:</b></b> We accomplish our tasks with utmost efficiency with an eye for detail.
                     </li>
-                    <li  style="color:#0a4168 !important;">
+                    <li  style="color:#0a4168 !important;" class="fs17px">
                         <b><b>Neat:</b></b> We maintain our product interface neat and easy to work with aiming to make it user friendly.
                     </li>
-                    <li  style="color:#0a4168 !important;">
+                    <li  style="color:#0a4168 !important;" class="fs17px">
                         <b><b>Trust:</b></b> We perform to build trust amongst our clients with our exemplary work ethics.
                     </li>
                   </ul>
@@ -205,7 +223,7 @@
       </div>
 
       <div class="row mt-5">
-        <div class="col-sm-10">
+        <div class="col-sm-12 col-lg-10">
           <div style="text-align: right;">
             <h5 class="fw600 text-primary1 pt-3 h-38" >
                 <u>Awards and Recognitions.</u>
@@ -213,19 +231,19 @@
           </div>
 
           <div class="owl-carousel owl-theme pt-5 rightblog" style="float: right; text-align: center;">
-            <a href="/ceo_award"><div class="item m-1 b3"><img src="img/ceo_award.jpg" class="img-fluid height160">
+            <a href="/ceo_award"><div class="item m-1 b4 award"><img src="img/ceo_award.jpg" class="img-fluid height160">
                 <p class="bg-primary1 text-white p-1 fw400 fs14px m-0 pt-2 " style="height: 75px">Ascent Technology CEO – Mr. Kundan Shekhawat honored.</p>
             </div></a>
-            <a href="/msme_award"><div class="item m-1 b3"><img src="img/msme_award.jpg" class="img-fluid height160">
+            <a href="/msme_award"><div class="item m-1 b4 award"><img src="img/msme_award.jpg" class="img-fluid height160">
                 <p class="bg-primary1 text-white p-1 fw400 fs14px m-0 pt-2 "  style="height: 75px">Ascent Resilience Solutions Pvt Ltd awarded IT INNOVATION. </p>
             </div></a>
-            <a href="/ipr_award"><div class="item m-1 b3"><img src="img/ipr_award.jpg" class="img-fluid height160">
+            <a href="/ipr_award"><div class="item m-1 b4 award3"><img src="img/ipr_award.jpg" class="img-fluid height160">
                 <p class="bg-primary1 text-white p-1 fw400 fs14px m-0 pt-2 "  style="height: 75px"> IPR Certificate for PROMART-Escrow Software from Ministry of Economy, UAE </p>
             </div></a>
         </div>
         </div>
         
-        <div class=" text-center pt-3">
+        <div class=" text-center pt-3 sidebar">
             <img class="img-fluid" src="img/left-side.png" alt="">
         </div>
     </div>
@@ -251,7 +269,7 @@
               <textarea class="contact-input fw600" type="text" name="query" placeholder="Query"></textarea>
               <button type="submit" class="submit-btn"><i class="fa fa-long-arrow-right fw500"></i></button> 
              
-             </form> 
+             </form>
 	   </div>
           </div>
         </div>
@@ -273,22 +291,22 @@
             <label><a href=""><i class="fa fa-linkedin social-icon mt-2 ml-2 text-white linkin"></i></a></label>
           </div>
           <hr class="clearfix w-100 d-md-none pb-3">
-          <div class="col-md-2 mb-md-0 mb-3">
+          <div class="col-md mb-md-0 mb-3 text-center">
             <h5 class="fw500"> Quick Links</h5>
-            <ul class="list-unstyled">
+             <div class="row text-center">
+                 <div class="col-4 p-2"><a href="/product"><img src="img/bcm.png" class="img-fluid bg-white p-1"></a></div>
+                 <div class="col-4 p-2"><a href="/product"><img src="img/recon.png" class="img-fluid bg-white p-1"></a></div>
+                 <div class="col-4 p-2"><a href="/product"><img src="img/promart.png" class="img-fluid bg-white p-1"></a></div>
+             </div>
+
+
+            <ul class="list-unstyled mt-3">
                 <li class="pb-2"><a href="/about">About Us</a></li>
                 <li class="pb-2"><a href="/careers">Careers</a></li>
                 <li class="pb-2"><a href="/case_studies">Case Studies</a></li>
                 <li class="pb-2"><a href="/blog">Blogs</a></li>
             </ul>
-        </div>
-        <div class="col-md-2 mb-md-0 mb-3">
-          <h5 class="fw500"> </h5>
-          <ul class="list-unstyled">
-              <li class="pb-2"><a href="/product">Ascent Auto BCM©</a></li>
-              <li class="pb-2"><a href="/product">Ascent Auto RECON©</a></li>
-              <li class="pb-2"><a href="/product">Ascent ESCROW PROMART©</a></li>
-          </ul>
+
         </div>
           <div class="col-md-4 mt-md-0 mt-3">
             <h5 class="fw500">Looking for something?</h5>

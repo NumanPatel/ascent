@@ -13,26 +13,43 @@
     <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700i&amp;display=swap" rel="stylesheet">
   </head>
   <body>
-    <div></div>
-    <div class="container-fluid bg-white sticky-top">
+    <div class="container-fluid bg-white sticky-top z-depth-1">
       <nav class="mb-1 navbar navbar-expand-lg navbar-default z-depth-0">
-          <a class="navbar-brand" href="#"><img class="logo" src="img/logo.png" alt="logo"></a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-4" aria-controls="navbarSupportedContent-4" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-          <div class="collapse navbar-collapse">
-              <ul class="navbar-nav ml-auto">
-                  <li class="nav-item"><a class="nav-link black-text text-uppercase mr-2 ml-2 fw500 fs14px" href="/">Home</a></li>
-                  <li class="nav-item"><a class="nav-link black-text text-uppercase mr-2 ml-2 fw500 fs14px" href="/product">Product</a></li>
-                  <li class="nav-item"><a class="nav-link black-text text-uppercase mr-2 ml-2 fw500 fs14px" href="/about">About</a></li>
-                  <li class="nav-item"><a class="nav-link black-text text-uppercase mr-2 ml-2 fw500 fs14px" href="/case_study">Case Studies</a></li>
-                  <li class="nav-item"><a class="nav-link black-text text-uppercase mr-2 ml-2 fw500 fs14px" href="/blog">Blog</a></li>
-                  <li class="nav-item"><a class="nav-link black-text text-uppercase mr-2 ml-2 fw500 fs14px" href="#contactUs">Contact Us</a></li>
-              </ul>
-              <form class="form-inline pb-2">
-                  <div>
-                      <input class="search-box" type="text" placeholder="Search" aria-label="Search">
-                  </div>
-              </form>
-          </div>
+      
+        <a class="navbar-brand" href="index.html"><img class="logo" src="img/logo.png" alt="logo"></a>
+      
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav"
+          aria-controls="basicExampleNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"><i class="fa fa-bars"></i></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="basicExampleNav">
+      
+          <ul class="navbar-nav ml-auto">
+                          <li class="nav-item"><a class="nav-link text-uppercase mr-2 ml-2 fw500 fs14px" href="/">Home</a></li>
+                          <li class="nav-item "><a class="nav-link dropdown-toggle  text-uppercase mr-2 ml-2 fw500 fs14px"  data-toggle="dropdown"  aria-haspopup="true" aria-expanded="false">Product</a>
+      
+      
+                              <div class="dropdown-menu products">
+                                <a class="dropdown-item" href="/product"><img src="img/bcm.png" class="img-fluid"></a>
+                                <a class="dropdown-item" href="/product"><img src="img/recon.png" class="img-fluid"></a>
+                                <a class="dropdown-item" href="/product"><img src="img/promart.png" class="img-fluid"></a>
+                              </div>
+      
+                          </li>
+                          <li class="nav-item"><a class="nav-link text-uppercase mr-2 ml-2 fw500 fs14px" href="/about">About</a></li>
+                          <li class="nav-item "><a class="nav-link text-uppercase mr-2 ml-2 fw500 fs14px" href="/case_study">Case Studies</a></li>
+                          <li class="nav-item"><a class="nav-link text-uppercase mr-2 ml-2 fw500 fs14px" href="/blog">Blog</a></li>
+                          <li class="nav-item"><a class="nav-link text-uppercase mr-2 ml-2 fw500 fs14px" href="#contactUs">Contact Us</a></li>
+                      </ul>
+      
+          <form class="form-inline pb-2">
+                          <div>
+                              <input class="search-box" type="text" placeholder="Search " aria-label="Search">
+                          </div>
+                      </form>
+        </div>
+      
       </nav>
     </div>
     
@@ -100,22 +117,22 @@
             <label><a href=""><i class="fa fa-linkedin social-icon mt-2 ml-2 text-white linkin"></i></a></label>
           </div>
           <hr class="clearfix w-100 d-md-none pb-3">
-          <div class="col-md-2 mb-md-0 mb-3">
+          <div class="col-md mb-md-0 mb-3 text-center">
             <h5 class="fw500"> Quick Links</h5>
-            <ul class="list-unstyled">
+             <div class="row text-center">
+                 <div class="col-4 p-2"><a href="/product"><img src="img/bcm.png" class="img-fluid bg-white p-1"></a></div>
+                 <div class="col-4 p-2"><a href="/product"><img src="img/recon.png" class="img-fluid bg-white p-1"></a></div>
+                 <div class="col-4 p-2"><a href="/product"><img src="img/promart.png" class="img-fluid bg-white p-1"></a></div>
+             </div>
+
+
+            <ul class="list-unstyled mt-3">
                 <li class="pb-2"><a href="/about">About Us</a></li>
                 <li class="pb-2"><a href="/careers">Careers</a></li>
                 <li class="pb-2"><a href="/case_studies">Case Studies</a></li>
                 <li class="pb-2"><a href="/blog">Blogs</a></li>
             </ul>
-        </div>
-        <div class="col-md-2 mb-md-0 mb-3">
-          <h5 class="fw500"> </h5>
-          <ul class="list-unstyled">
-              <li class="pb-2"><a href="/product">Ascent Auto BCM©</a></li>
-              <li class="pb-2"><a href="/product">Ascent Auto RECON©</a></li>
-              <li class="pb-2"><a href="/product">Ascent ESCROW PROMART©</a></li>
-          </ul>
+
         </div>
           <div class="col-md-4 mt-md-0 mt-3">
             <h5 class="fw500">Looking for something?</h5>

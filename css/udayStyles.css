@@ -1,0 +1,154 @@
+    .pt-7{padding-top:7rem!important}
+
+    .h-38{
+      font-size: 38px !important;
+    }
+
+    h5{
+      color:#0a4168 !important;
+    }
+
+    h6{
+      color:#0a4168 !important;
+    }
+    .fs17px{
+            font-size: 17px !important;
+    }
+
+    .rightblog > .owl-wrapper-outer > .owl-wrapper{
+      width: fit-content !important;
+      float: right;
+    }
+
+    .owl-wrapper{
+      width: fit-content !important;
+    }
+
+    @media only screen and (max-width: 992px) {
+      .sidebar{
+        display: none !important;
+      }
+      .aboutpic{
+        display: none !important;
+      }
+    }
+
+    @media only screen and (max-width: 992px) {
+      .caseImage{
+        display: none !important;
+      }
+    }
+
+    @media only screen and (max-width: 575px) {
+      .teamMember{
+        width: 250px;
+        margin: auto;
+        padding-right: 0px !important;
+      }
+    }
+
+    @media only screen and (max-width: 575px) {
+      .teamMember{
+        width: 250px;
+        margin: auto;
+        padding-right: 0px !important;
+      }
+    }
+
+    @media only screen and (min-width: 575px) {
+      .manager1{
+        margin-left: calc(100% - 500px) !important;
+      }
+    }
+
+    @media only screen and (min-width: 575px) and (max-width: 767px){
+      .manager1{
+        margin-left: calc(100% - 270px) !important;
+      }
+    }
+
+    @media only screen and (min-width: 500px) and (max-width: 767px)  {
+      .owl-item{
+        width: 50% !important;
+      }
+      .owl-item:nth-child(3) {  
+        margin-left: 25% !important;
+      }
+
+    }
+
+    @media only screen and (max-width: 500px){
+      .owl-item{
+        width: 80% !important;
+        margin-left: 10%;
+      }
+    }
+
+
+    .manager{
+      width: 250px;
+    }
+
+.container{
+  max-width: 90% !important;
+  width: 100% !important;
+}
+
+@media only screen and (max-width: 576px){
+  .caseTopLeft{
+    display: none !important;
+  }
+  .caseHead, .case1, .case2, .caseTop{
+    margin: 0px !important;
+    padding: 0px !important;
+  }
+
+  .productHeading{
+    width: 75% !important;
+  }
+} 
+
+
+@media only screen and (max-width: 840px){
+  .stripe3,.stripe2,.stripe1{
+    display: none;
+  }
+  .owl-item{
+    width: 200px !important;
+  }
+  .strip{
+    width: 75% !important;
+    margin: auto !important;
+    padding: 0px !important;
+  }
+  .strip>p{
+    font-size: 75% !important;
+  }
+  .dummy{
+    display: none;
+  }
+  .second.strip{
+    margin-right: 0px !important;
+  }
+  .third.strip{
+    margin-left: 0px !important;
+  }
+}  
+
+
+@media only screen and (max-width: 500px){
+
+  .strip>p{
+    font-size: 50% !important;
+  }
+  .owl-item{
+    width: 70% !important;
+  }
+}  
+
+
+
+
+
+
+
