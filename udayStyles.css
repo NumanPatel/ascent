@@ -1,0 +1,340 @@
+    .pt-7{padding-top:7rem!important}
+
+    .h-38{
+      font-size: 38px !important;
+    }
+
+    h5{
+      color:#0a4168 !important;
+    }
+
+    h6{
+      color:#0a4168 !important;
+    }
+    .fs17px{
+            font-size: 17px !important;
+    }
+
+    .rightblog > .owl-wrapper-outer > .owl-wrapper{
+      width: fit-content !important;
+      float: right;
+    }
+
+    .owl-wrapper{
+      width: fit-content !important;
+    }
+
+    @media only screen and (max-width: 992px) {
+      .sidebar{
+        display: none !important;
+      }
+      .aboutpic{
+        display: none !important;
+      }
+    }
+
+    @media only screen and (max-width: 992px) {
+      .caseImage{
+        display: none !important;
+      }
+    }
+
+    @media only screen and (max-width: 575px) {
+      .teamMember{
+        width: 250px;
+        margin: auto;
+        padding-right: 0px !important;
+      }
+    }
+
+    @media only screen and (max-width: 575px) {
+      .teamMember{
+        width: 250px;
+        margin: auto;
+        padding-right: 0px !important;
+      }
+    }
+
+    @media only screen and (min-width: 575px) {
+      .manager1{
+        margin-left: 50% !important;
+      }
+    }
+
+    @media only screen and (min-width: 575px) and (max-width: 767px){
+      .manager1{
+        margin-left: calc(100% - 300px) !important;
+      }
+    }
+
+    @media only screen and (min-width: 500px) and (max-width: 767px)  {
+      .owl-item{
+        width: 50% !important;
+      }
+      .owl-item:nth-child(3) {  
+        margin-left: 25% !important;
+      }
+
+    }
+
+    @media only screen and (max-width: 500px){
+      .owl-item{
+        width: 80% !important;
+        margin-left: 10%;
+      }
+    }
+
+
+    .manager{
+      width: 250px;
+    }
+
+.container{
+  max-width: 90% !important;
+  width: 100% !important;
+}
+
+@media only screen and (max-width: 576px){
+  .caseTopLeft{
+    display: none !important;
+  }
+  .caseHead, .case1, .case2, .caseTop{
+    margin: 0px !important;
+    padding: 0px !important;
+  }
+
+  .productHeading{
+    width: 75% !important;
+  }
+} 
+
+
+@media only screen and (max-width: 840px){
+  .stripe3,.stripe2,.stripe1{
+    display: none;
+  }
+  .owl-item{
+    width: 200px !important;
+  }
+  .strip{
+    width: 75% !important;
+    margin: auto !important;
+    padding: 0px !important;
+  }
+  .strip>p{
+    font-size: 75% !important;
+  }
+  .dummy{
+    display: none;
+  }
+  .second.strip{
+    margin-right: 0px !important;
+  }
+  .third.strip{
+    margin-left: 0px !important;
+  }
+}  
+
+
+@media only screen and (max-width: 500px){
+
+  .strip>p{
+    font-size: 50% !important;
+  }
+  .owl-item{
+    width: 70% !important;
+  }
+}  
+
+
+
+@media only screen and (max-width: 500px){
+  .stp{
+    display: none;
+  }
+  .contactStrip{
+    margin-left:0px !important;
+  }
+  .contHead{
+    margin-left: 0px !important;
+    padding-left: 0px !important;
+  }
+  .contHead1{
+    margin-left: 20px !important;
+    padding-left: 0px !important;
+  }
+}   
+
+
+@media only screen and (min-width: 500px){
+.dropIn{
+  padding-top: 6rem !important;
+}
+
+} 
+
+@media only screen and (min-width: 576px) and (max-width:1248px){
+  .cont{
+    margin-left: 40px !important;
+  }
+  .blogCLass2{
+    margin-left: 25px !important;
+  }
+  } 
+
+  @media only screen and (min-width: 500px) and (max-width:576px){
+    .cont{
+      margin-left: 100px !important;
+    }
+    } 
+
+@media only screen and (max-width: 1288px){
+  .blogSet2{
+    padding-left: 50px !important;
+  }
+}
+
+@media only screen and (max-width: 576px){
+  .blogSideStrip{
+    display: none !important;
+  }
+}
+
+@media only screen and (max-width: 992px){
+  .blogSideStrip{
+    display: none !important;
+  }
+} 
+
+
+
+@media only screen and (max-width: 992px)  and (min-width: 576px){
+  .blogMain{
+    padding-right: 50px;
+  }
+  .blogCLass1 > .owl-wrapper-outer > .owl-wrapper{
+    margin: auto !important;
+    float: none !important;
+} 
+.blogCLass2 > .owl-wrapper-outer > .owl-wrapper{
+  margin: auto !important;
+  float: none !important;
+}
+}
+
+@media only screen and (max-width: 700px){
+    .blogSideStrip{
+      max-width: 20px !important;
+
+    }
+}
+
+
+@media only screen and (min-width: 992px){
+  .blogCLass1 > .owl-wrapper-outer > .owl-wrapper{
+    float: right !important;
+}
+.blogCLass2 > .owl-wrapper-outer > .owl-wrapper{
+  float: left !important;
+}
+}  
+
+.secondBlogHead{
+  padding-right: 0px !important;
+}
+
+@media only screen and (max-width: 720px){
+  #blogHeading1{
+    font-size: 16px;
+    padding-left: 0px !important;
+  }
+  #blogHeading2{
+    font-size: 16px;
+    padding-left: 0px !important;
+  }
+  #blogHeading3{
+    font-size: 16px;
+    padding-left: 0px !important;
+  }
+  .blogHeading2{
+    font-size: 16px;
+  }
+} 
+
+@media only screen and (max-width: 500px){
+  #blogHeading1{
+    font-size: 12px;
+    padding-left: 0px !important;
+  }
+  #blogHeading2{
+    font-size: 12px;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+  }
+  #blogHeading3{
+    font-size: 12px;
+    padding-left: 0px !important;
+  }
+  .blogHeading2{
+    font-size: 12px;
+  }
+} 
+
+@media only screen and (max-width: 992px) {
+  .blogHeading2{
+    margin-left: 96px !important;
+  }
+  
+  #blogHeading1{
+  width: 90% !important;
+  }
+  #blogHeading2{
+    width: 90% !important;
+  }
+  #blogHeading3{
+    width: 90% !important;
+  }
+
+  .blogs{
+    margin-left: 96px !important;
+  }
+}
+
+
+
+@media only screen and (min-width:992px){
+  #blogHeading1,.blogs{
+    margin-left: 96px !important;
+  }
+}
+
+@media only screen and (max-width:992px){
+  #blogHeading1,.blogs{
+    margin-left: 0px !important;
+  }
+  .shade1.mil.contact{
+    display: none !important;
+  }
+}
+
+.shade33{
+  margin-left: calc(((100%)/3)*2) !important;
+}
+
+.shade22{
+  margin-left: calc((100%)/3) !important ;
+}
+
+.shade11,.shade22,.shade33{
+  width: calc((100%)/3) !important;
+}
+
+
+
+.container-fluid.mtext-center .pt-5.container-fluid .pl-5.ml-4.p-relative.mplr-1.mmtb-1.mmlr-1.mptb-1{
+  padding-left: 0px !important;
+}
+
+.stt{
+  height: 56px !important;
+}

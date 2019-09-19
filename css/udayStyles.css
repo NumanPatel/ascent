@@ -67,15 +67,6 @@
       }
     }
 
-    @media only screen and (min-width: 500px) and (max-width: 767px)  {
-      .owl-item{
-        width: 50% !important;
-      }
-      .owl-item:nth-child(3) {  
-        margin-left: 25% !important;
-      }
-
-    }
 
     @media only screen and (max-width: 500px){
       .owl-item{
@@ -90,15 +81,19 @@
     }
 
 .container{
-  max-width: 90% !important;
   width: 100% !important;
 }
+.caseHead{
+  margin-left: 136px !important;
+  padding: 0px !important;
+}
+
 
 @media only screen and (max-width: 576px){
   .caseTopLeft{
     display: none !important;
   }
-  .caseHead, .case1, .case2, .caseTop{
+  .case1, .case2, .caseTop{
     margin: 0px !important;
     padding: 0px !important;
   }
@@ -112,9 +107,6 @@
 @media only screen and (max-width: 840px){
   .stripe3,.stripe2,.stripe1{
     display: none;
-  }
-  .owl-item{
-    width: 200px !important;
   }
   .strip{
     width: 75% !important;
@@ -203,6 +195,9 @@
 @media only screen and (max-width: 992px){
   .blogSideStrip{
     display: none !important;
+  }
+  .owl-item{
+    width: 200px !important;
   }
 } 
 
@@ -303,8 +298,8 @@
 
 
 @media only screen and (min-width:992px){
-  #blogHeading1,.blogs{
-    margin-left: 96px !important;
+.blogs{
+    margin-left: 100px !important;
   }
 }
 
@@ -342,7 +337,7 @@
 
 @media only screen and (min-width:476px){
   .contactFooter{
-    margin: 50px !important;
+    margin-left: 115px !important;
   }
 }
 
@@ -354,4 +349,169 @@
 
 body{
   text-align: justify !important;
+}
+
+.maxH{
+  max-height: 68px !important;
+}
+
+.marginH{
+margin-top: -318px !important;
+}
+
+.marginHH{
+  height: 365px !important;
+}
+
+.aboutIcon{
+  left: 15% !important;
+}
+
+.aboutLine{
+  height: 0px !important;
+}
+
+/* .rightAligned{margin-left: calc((((100%)/5)*1) - 180px);}
+ */
+.aboutContactStrip{
+  margin-top: -425px !important;
+}
+
+.ml1, .ml2{
+  margin-left: 136px !important;
+}
+.ml2{
+  max-width: calc(100% - 136px);
+}
+.productHeading{
+  width: 100% !important;
+}
+
+.nextCases{
+  max-width: calc((((100%)/3)*2)*0.72);
+}
+@media only screen and (max-width:992px){
+.nextCases {
+  max-width: calc((((100%)/6)*5)*0.72);
+}
+}
+
+.b20{
+  border: 20px solid #00316b !important;
+  padding-left: 0px !important;
+}
+
+.caseHeadingg{
+  padding-left: 117px !important;
+}
+
+@media only screen and (max-width:767px){
+  .caseHeadingg{
+    padding-left: 12px !important;
+  }
+  .ml1{
+    margin-left: 30px !important;
+    margin-right: 30px !important;
+  }
+  .caseTopLeft{
+    display: none !important;
+  }
+  .caseHead{
+    max-width: calc(100% - 60px) !important;
+    margin-left: 30px !important;
+    margin-right: 30px !important;
+  }
+  .contForm{
+    margin-top: 30px !important;
+    text-align: center;
+  }
+  .but{
+    padding-right: 0px !important;
+    margin-right: 0px !important;
+  }
+  .but1{
+    float: none !important;
+  }
+}
+
+@media only screen and (max-width:576px){
+  .caseHeadingg{
+    padding-left: 12px !important;
+  }
+  .caseTopLeft{
+    display: none !important;
+  }
+.mar2{
+  margin-left: 20px !important;
+  margin-right: 20px !important;
+}
+.mar22{
+  margin-left: 20px !important;
+}
+}
+
+@media only screen and (min-width: 767px)
+{.caseHead{
+  max-width: calc(100% - 136px) !important;
+}
+.owl-corousel > .owl-wrapper-outer > .owl-wrapper > .award:nth-child(1){
+  width: 50% !important;
+}
+}
+
+@media only screen and (max-width: 992px)
+{.ml2{
+  margin-left: 0px !important;
+}}
+
+@media only screen and (min-width: 992px)
+{.contactContainer{
+  max-width: calc(100% - 198px);
+}}
+
+@media only screen and (min-width: 500px) and (max-width: 767px)  {
+  .owl-item{
+    width: 50% !important;
+  }
+  .owl-item:nth-child(3) {  
+    margin-left: 25% !important;
+  }
+
+}
+
+
+@media only screen and (max-width: 500px){
+  .owl-item{
+    width: 80% !important;
+    margin-left: 10% !important;
+  }
+}
+
+.noMar{
+  margin-right: 0px !important;
+  margin-left: 0px !important;
+}
+
+.mTop40{
+  margin-top: 40px !important;
+}
+
+
+
+@media only screen and (max-width: 400px){
+  .corow > .owl-wrapper-outer > .owl-wrapper > .owl-item {
+    width: 100% !important;
+    margin-left: 0px !important;
+  }
+}
+
+.backImage{
+  background-position: center !important;
+  background-size: contain !important;
+  background-repeat: no-repeat !important;
+}
+
+.row{
+  margin-right: 0px !important;
+  margin-left: 0px !important;
 }
