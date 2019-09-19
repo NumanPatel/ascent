@@ -18,28 +18,44 @@
 </head>
 
 <body>
+    <div class="container-fluid bg-white sticky-top z-depth-1">
+<nav class="mb-1 navbar navbar-expand-lg navbar-default z-depth-0">
 
-    <div class="row mt-5  ">
-        <p class="text-primary1 fw600 fs-40">Request Callback</p>
-        <div class="mt-2 container-fluid">
-          <div class="row m-0">
-            <div class="col-sm-6 pl-0">
-              <div class="mapouter img-fluid">
-                <div class="gmap_canvas">
-                  <iframe id="gmap_canvas" width="600" height="280px" src="https://maps.google.com/maps?q=university%20of%20san%20francisco&amp;t=&amp;z=13&amp;ie=UTF8&amp;iwloc=&amp;output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.embedgooglemap.net/blog/best-wordpress-themes/"></a>
-                </div>
-              </div>
-            </div>
-            <div class="col-sm-6">
-              <input class="contact-input fw600" type="text" placeholder="Company Name">
-              <input class="contact-input fw600" type="text" placeholder="Phone Number">
-              <input class="contact-input fw600" type="text" placeholder="Email Id">
-              <textarea class="contact-input fw600" placeholder="Query"></textarea>
-              <button class="submit-btn"><i class="fa fa-long-arrow-right fw500"></i></button>
-            </div>
-          </div>
-        </div>
-      </div>
+  <a class="navbar-brand" href="index.html"><img class="logo" src="img/logo.png" alt="logo"></a>
+
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav"
+    aria-controls="basicExampleNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"><i class="fa fa-bars"></i></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="basicExampleNav">
+
+    <ul class="navbar-nav ml-auto">
+                    <li class="nav-item "><a class="nav-link text-uppercase mr-2 ml-2 fw500 fs14px" href="index.html">Home</a></li>
+                    <li class="nav-item active"><a class="nav-link dropdown-toggle  text-uppercase mr-2 ml-2 fw500 fs14px"  data-toggle="dropdown"  aria-haspopup="true" aria-expanded="false">Product</a>
+
+
+                        <div class="dropdown-menu products">
+                          <a class="dropdown-item" href="product.html"><img src="img/bcm.png" class="img-fluid"></a>
+                          <a class="dropdown-item" href="product.html"><img src="img/recon.png" class="img-fluid"></a>
+                          <a class="dropdown-item" href="product.html"><img src="img/promart.png" class="img-fluid"></a>
+                        </div>
+
+                    </li>
+                    <li class="nav-item"><a class="nav-link text-uppercase mr-2 ml-2 fw500 fs14px" href="about.html">About</a></li>
+                    <li class="nav-item "><a class="nav-link text-uppercase mr-2 ml-2 fw500 fs14px" href="case.html">Case Studies</a></li>
+                    <li class="nav-item"><a class="nav-link text-uppercase mr-2 ml-2 fw500 fs14px" href="blog.html">Blog</a></li>
+                    <li class="nav-item"><a class="nav-link text-uppercase mr-2 ml-2 fw500 fs14px" href="#">Contact Us</a></li>
+                </ul>
+
+    <form class="form-inline pb-2">
+                    <div>
+                        <input class="search-box" type="text" placeholder="Search " aria-label="Search">
+                    </div>
+                </form>
+  </div>
+
+</nav>
         
     </div>
     <div class="container">
